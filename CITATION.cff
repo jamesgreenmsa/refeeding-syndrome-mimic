@@ -1,0 +1,78 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "Refeeding Syndrome Identification in ICU Patients Using MIMIC-IV"
+abstract: "Data processing pipeline for identifying refeeding syndrome in critically ill patients using the MIMIC-IV database. Includes extraction of clinical variables, calculation of SOFA and APACHE II scores, and comprehensive analytical dataset creation."
+authors:
+  - family-names: "Green"
+    given-names: "James"
+    email: "jg1984@shp.rutgers.edu"
+    affiliation: "Rutgers University, School of Health Professions"
+  - family-names: "[PI Last Name]"
+    given-names: "[PI First Name]"
+    affiliation: "[PI Institution]"
+repository-code: "https://github.com/[username]/refeeding-syndrome-mimic"
+url: "https://github.com/[username]/refeeding-syndrome-mimic"
+keywords:
+  - refeeding syndrome
+  - MIMIC-IV
+  - critical care
+  - ICU
+  - SOFA score
+  - APACHE II
+  - nutrition
+  - clinical informatics
+license: MIT
+version: 1.0.0
+date-released: 2025-11-06
+references:
+  - type: article
+    authors:
+      - family-names: "Johnson"
+        given-names: "Alistair"
+      - family-names: "Bulgarelli"
+        given-names: "Lucas"
+      - family-names: "Pollard"
+        given-names: "Tom"
+      - family-names: "Horng"
+        given-names: "Steven"
+      - family-names: "Celi"
+        given-names: "Leo Anthony"
+      - family-names: "Mark"
+        given-names: "Roger"
+    title: "MIMIC-IV (version 2.0)"
+    journal: "PhysioNet"
+    year: 2022
+    doi: "10.13026/7vcr-e114"
+  - type: article
+    authors:
+      - family-names: "Vincent"
+        given-names: "JL"
+      - family-names: "Moreno"
+        given-names: "R"
+      - family-names: "Takala"
+        given-names: "J"
+    title: "The SOFA (Sepsis-related Organ Failure Assessment) score to describe organ dysfunction/failure"
+    journal: "Intensive Care Medicine"
+    year: 1996
+    volume: 22
+    issue: 7
+    start: 707
+    end: 710
+  - type: article
+    authors:
+      - family-names: "Knaus"
+        given-names: "WA"
+      - family-names: "Draper"
+        given-names: "EA"
+      - family-names: "Wagner"
+        given-names: "DP"
+      - family-names: "Zimmerman"
+        given-names: "JE"
+    title: "APACHE II: a severity of disease classification system"
+    journal: "Critical Care Medicine"
+    year: 1985
+    volume: 13
+    issue: 10
+    start: 818
+    end: 829
